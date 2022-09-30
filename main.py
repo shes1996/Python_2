@@ -55,6 +55,7 @@ mult = num[n1] * num[n2]
 print(f'Массив -> {num}. Произведение элементов на позициях {n1} и {n2} -> {mult}')
 for i in range(len(num)):
     number.append(i)
+f.close()
 
 for i in range(len(num)):
     n = random.randint(0, len(number) - 1)
